@@ -1,6 +1,6 @@
 const iterativeFib = (n) => {
   let results = [0, 1];
-  if (n < 1) return 'Please enter as positive integer above 0';
+  if (n < 1) return 'Please enter a positive integer above 0';
   if (n === 1) return [0];
   if (n === 2) return results;
   for (let i = 2; i < n; i++) {
