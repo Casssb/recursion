@@ -9,7 +9,7 @@ const iterativeFib = (n) => {
   return results;
 };
 
-console.log(iterativeFib(0)); /* Please enter as positive integer above 0 */
+console.log(iterativeFib(0)); /* Please enter a positive integer above 0 */
 console.log(iterativeFib(1)); /* [ 0 ] */
 console.log(iterativeFib(2)); /* [ 0, 1 ] */
-console.log(iterativeFib(6)); /* #[ 0, 1, 1, 2, 3, 5 ]*/
+console.log(iterativeFib(6)); /* [ 0, 1, 1, 2, 3, 5 ]*/
